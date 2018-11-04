@@ -1,0 +1,10 @@
+var two = document.querySelector('.two');
+console.log(two);
+console.log(two.nextSibling);
+console.log(two.nextSibling.nextSibling);
+console.log(two.previousSibling);
+console.log(two.previousSibling.previousSibling.previousSibling.previousSibling);
+var three = document.querySelector('.three');
+console.log(three);
+console.log(three.nextSibling);
+console.log(three.nextSibling.nextSibling);
