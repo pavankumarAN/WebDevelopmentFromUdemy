@@ -17,6 +17,11 @@ function scope2() {
     }
     console.log(b);//1
 }
-document.write("gsgsdf")
+
 scope1();
 scope2();
+
+const name= "pavan";
+//name="kumar";//this will give following error
+//Uncaught TypeError: Assignment to constant variable.
+//at ES6KeyWords.js: 25
