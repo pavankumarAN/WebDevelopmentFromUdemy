@@ -1,0 +1,21 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hexBtn {
+    padding: 0.25rem 0.5rem;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: rbga(0,0,0,0.6);
+    font-size: 1.5rem;
+    cursor: pointer;
+    outline: none;
+    color: blue;
+    text-transform: capitalize;
+}
+.hexBtn:hover {
+    background: #000;
+}
