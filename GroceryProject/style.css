@@ -81,4 +81,66 @@ body {
 
 .displayItemsTitile {
     color: #4d7ea8;
+    margin-bottom: o.25rem;
+}
+.groceryItem {
+    display: grid;
+    grid-template-columns: 4fr 1fr; 
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    transition: all 1s ease;
+    margin: 0.5rem 0;
+}
+.groceryItem:hover {
+    background: #828489;
+}
+
+.groceryItemTitle {
+    text-align: left;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: #272932;
+}
+
+.groceryItemLink {
+    color: red;
+    transition: all 2s linear;
+}
+.groceryItem:hover .groceryItemLink{
+    transform: scale(2);
+}
+.clearItems {
+    color: #4d7ea8;
+    background: transparent;
+    border: 3px solid #4d7ea8;
+    transition: all 2s ease;
+}
+
+.clearItems:hover {
+    background: #4d7ea8;
+    color: #272932;
+}
+
+/* actions */
+
+.alert {
+    color: red;
+    border-color: red;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.success {
+    color: green;
+    border-color: green;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width:768px){
+    body {
+        grid-template-columns: 50%;
+    }
 }
