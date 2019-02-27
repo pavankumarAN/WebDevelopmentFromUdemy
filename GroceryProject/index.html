@@ -9,9 +9,31 @@
     <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
 </head>
 <body>
-    <span>
-        <i class="fas fa-home fa-5x"></i>
-    </span>
+    <!-- add items -->
+    <div class="itemContainer">
+        <h4 class="addItemsAction">display action</h4>
+        <h2 class="addItemsTitle">add grocery items</h2>
+        <form action="">
+            <input type="text" name="" id="" class="addItemsInput">
+            <button type="submit" class="addItemsSubmit">Submit here</button>
+        </form>
+    </div>
+
+    <!-- Display items  -->
+
+    <div class="displayItemsContainer">
+        <h4 class="displayItemsAction">display action</h4>
+        <h2 class="displayItemsTitile">grocery items</h2>
+        <div class="groceryList">
+            <div class="groceryItem">
+                <h4 class="groceryItemTitle">Item</h4>
+                <a href="" class="groceryItemLink">
+                    <i class="far fa-trash-alt"></i>
+                </a>
+            </div>
+        </div>
+        <button type="submit" class="clearItems">Clear items</button>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

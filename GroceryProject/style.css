@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    margin-top: 3rem;
+    background: #828489
+}
+
+.itemContainer {
+    background: #4d7ea8;
+}
+
+.itemContainer, .displayItemsContainer {
+    margin: 1rem 0;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    border: 2px solid #272932;
+    box-shadow: 0 5px 10px #272932;
+}
+
+.addItemsTitle, .displayItemsTitile {
+    text-transform: capitalize;
+}
+.addItemsTitle {
+    color : #b6c2d9;
+}
+
+.addItemsAction , .displayItemsAction {
+    border: 2px solid #272932;
+    padding: 0.5rem;
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    display: none;
+}
+
+.addItemsInput {
+    background: transparent;
+    border: none;
+    border-bottom: 5px solid #9e90a2;
+    width: 100%;
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: #9e90a2;
+    outline: none;
+    text-transform: uppercase;
+}
+
+
+.addItemsSubmit, .clearItems {
+    display: block;
+    width: 60%;
+    margin: 2rem auto 0 auto;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    outline: none;
+}
+.addItemsSubmit {
+    color : #b6c2d9;
+    background: transparent;
+    border: 3px solid #b6c2d9;
+    transition: all 2s ease;
+}
+
+.addItemsSubmit:hover {
+    background: #b6c2d9;
+    color : #272932;
+}
+
+.displayItemsContainer {
+    background: #b6c2d9;
+}
+
+.displayItemsTitile {
+    color: #4d7ea8;
+}
